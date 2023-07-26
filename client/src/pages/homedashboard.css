@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header1{
+    margin-left: 320px;
+    letter-spacing: 0.3rem;
+}
+.HomeDashboardMainPage{
+    height: 100vh;
+}
+.homepagediv1{
+    margin-left: 50px;
+    background-color:#64748B;
+    height: 100vh;
+    border-radius: 20px;
+}
+.to-do{
+    padding: 17px 13px;
+    font-size: 13px;
+    margin-left: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.alltasks{
+    margin-left: 400px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13px;
+}
+.homepagediv3{
+    background-color: rgb(245, 244, 241);
+    padding: 40px 10px;
+    width: 70%;
+    /*display: flex;
+    justify-content: flex-start;*/
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.projectname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.addTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.addTaskButton{
+    padding: 13px 17px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+/*<div className='homepagediv3'>
+<p className='projectname'>ProjectName:Frontend Development</p>
+<p className='edit'>EDIT</p>
+</div>
+<div className='addTask'>
+<button className='addTaskButton'>ADD NEW TASK +</button>
+</div>
+*/
+.filter-assignTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

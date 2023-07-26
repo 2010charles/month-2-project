@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.taskassigned1{
+    background-color: gray;
+    width: 30%;
+    padding: 15px 0;
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.project1{
+    margin-left: 15px;
+    line-height: 2rem;
+}
+.alltaskassigned{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.editDeletebtn{
+    margin-left: 20px;
+    margin-right: 5px;
+    padding: 0px 12px;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.editDeletebtn:hover{
+    background-color: black;
+    color: white;
+}

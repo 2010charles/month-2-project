@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loginPage1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: -4px;
+}
+.loginPart{
+    font-size: 15px;
+    padding: 40px;
+    letter-spacing: 0.2rem;
+    color: rgb(228, 12, 210);
+}
+input{
+    padding: 13px 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(246, 21, 209);
+}
+.submit{
+    background-color: black;
+}
+.submit:hover{
+    background-color: burlywood;
+}
+.LoginRight{
+    background-color:gray;
+    /*padding: 200px 100px;*/
+    margin-top: 13px;
+    height: 500px;
+    width: 450px;
+    margin-left: -325px;
+}
+.LoginContentOnRegister{
+    position: absolute;
+    margin-left: -950px;
+    margin-top: 200px;
+}
+.GetStartedContent{
+    font-size: 17px;
+    letter-spacing: 0.25rem;
+}
+.GetStartedButton{
+    padding: 17px 13px;
+    margin-top: 30px;
+    margin-left: 200px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(238, 6, 227);
+    border: 2px solid rgb(11, 11, 11);
+}
+.GetStartedButton:hover{
+    background-color: burlywood;
+}

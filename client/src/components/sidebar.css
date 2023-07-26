@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    margin-left: -70px;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.sidebarLinks a{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}

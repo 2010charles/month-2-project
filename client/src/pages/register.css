@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formRegister{
+    position: absolute;
+    top: 150px;
+    margin-left:500px;
+    background-color: gray;
+    padding: 40px 80px;
+    border-radius: 20px;
+}
+.registerPart{
+    color: burlywood;
+    padding: 12px;
+}
